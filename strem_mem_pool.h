@@ -1,6 +1,6 @@
 #ifndef STREM_MEM_POOL_H_
 #define STREM_MEM_POOL_H_
-#include <strem_common.h>
+#include "strem_common.h"
 
 typedef struct {
 	size_t size;

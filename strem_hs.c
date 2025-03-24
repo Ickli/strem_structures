@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
-#include <strem_hs.h>
+#include "strem_hs.h"
 
 #define KEYSIZE(hs) (sizeof(StremHSKey) + (hs).key_size)
 

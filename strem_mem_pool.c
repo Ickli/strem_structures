@@ -1,7 +1,7 @@
 #include <stddef.h>
 #include <assert.h>
 #include <string.h>
-#include <strem_mem_pool.h>
+#include "strem_mem_pool.h"
 //#define DD
 
 static void chain(StremMemPool_Seg* const hole, void* const next_hole) {

@@ -1,6 +1,6 @@
 #ifndef STREM_HS_H_
 #define STREM_HS_H_
-#include <strem_vector.h>
+#include "strem_vector.h"
 
 typedef size_t(*StremHashFunction)(void const*);
 typedef bool(*StremCmpFunction)(void const*, void const*);

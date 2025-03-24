@@ -1,6 +1,7 @@
 #ifndef STREM_TLFS_H_
 #define STREM_TLFS_H_
 #include <stdint.h>
+#include <stddef.h>
 
 /* public */
 // must be pow(2, STREM_TLSF_SLI)

@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <strem_segr_line.h>
+#include "strem_segr_line.h"
 
 // Interprets block as sequence of StremSegrLine_FreeNode structures aligned to elem_size,
 // Makes every node point to the next one. The last will point to NULL;

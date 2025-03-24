@@ -4,7 +4,7 @@
 #include <string.h>
 
 #define STREM_TLSF_DEFINE_LARGEST_SIZE
-#include <strem_tlsf.h>
+#include "strem_tlsf.h"
 
 #define STREM_TLSF_LAST_BIT ((size_t)1)
 #define STREM_TLSF_FREE_BIT ((size_t)0)
